@@ -1,47 +1,45 @@
-if (global.dir == global.down)
+if ((global.sword == false) && (global.moving == true))
 {
-	if (keyboard_key == vk_down)
+	if (global.dir == global.down)
 	{
 		sprite_index = spr_lukyDownMove;
 	}
-	else 
-	{
-		sprite_index = spr_lukyDownFace;
-	}
-}
 
-if (global.dir == global.right)
-{	
-	if (keyboard_key == vk_right)
-	{
+	if (global.dir == global.right)
+	{	
 		sprite_index = spr_lukyRightMove;
 	}
-	else 
-	{
-		sprite_index = spr_lukyRightFace;
-	}
-}
 
-if (global.dir == global.left)
-{
-	if (keyboard_key == vk_left)
+	if (global.dir == global.left)
 	{
 		sprite_index = spr_lukyLeftMove;
 	}
-	else 
-	{
-		sprite_index = spr_lukyLeftFace;
-	}
-}
 
-if (global.dir == global.up)
-{
-	if (keyboard_key == vk_up)
+	if (global.dir == global.up)
 	{
 		sprite_index = spr_lukyUpMove;
 	}
-	else
+}
+
+else if (global.sword == true)
+{
+	global.moving = false;
+	obj_luky.sprite_index = spr_lukySwordSwing;
+	
+	if (global.dir == global.down)
 	{
-		sprite_index = spr_lukyUpFace;
+		obj_luky.image_index = 0;
+	}
+	if (global.dir == global.up)
+	{
+		obj_luky.image_index = 1;
+	}
+	if (global.dir == global.left)
+	{
+		obj_luky.image_index = 2;
+	}
+	if (global.dir == global.right)
+	{
+		obj_luky.image_index = 3;
 	}
 }
