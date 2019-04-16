@@ -1,45 +1,48 @@
 if ((global.sword == false) && (global.moving == true))
 {
+	image_speed = 1;
 	if (global.dir == global.down)
 	{
-		sprite_index = spr_lukyDownMove;
+		obj_luky.sprite_index = spr_lukyDownMove;
 	}
 
 	if (global.dir == global.right)
 	{	
-		sprite_index = spr_lukyRightMove;
+		obj_luky.sprite_index = spr_lukyRightMove;
 	}
 
 	if (global.dir == global.left)
 	{
-		sprite_index = spr_lukyLeftMove;
+		obj_luky.sprite_index = spr_lukyLeftMove;
 	}
 
 	if (global.dir == global.up)
 	{
-		sprite_index = spr_lukyUpMove;
+		obj_luky.sprite_index = spr_lukyUpMove;
 	}
 }
 
-else if (global.sword == true)
+if ((global.sword == false) && (global.moving == false))
 {
-	global.moving = false;
-	obj_luky.sprite_index = spr_lukySwordSwing;
-	
+	image_speed = 0;
+	image_index = 0;
 	if (global.dir == global.down)
 	{
-		obj_luky.image_index = 0;
+		obj_luky.sprite_index = spr_lukyDownMove;
 	}
-	if (global.dir == global.up)
-	{
-		obj_luky.image_index = 1;
+
+	if (global.dir == global.right)
+	{	
+		obj_luky.sprite_index = spr_lukyRightMove;
 	}
+
 	if (global.dir == global.left)
 	{
-		obj_luky.image_index = 2;
+		obj_luky.sprite_index = spr_lukyLeftMove;
 	}
-	if (global.dir == global.right)
+
+	if (global.dir == global.up)
 	{
-		obj_luky.image_index = 3;
+		obj_luky.sprite_index = spr_lukyUpMove;
 	}
 }
