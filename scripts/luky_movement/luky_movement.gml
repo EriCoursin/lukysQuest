@@ -7,24 +7,29 @@ if (global.sword == false)
 		obj_luky.y++;
 	}
 
-	if (keyboard_key == vk_up)
+	else if (keyboard_key == vk_up)
 	{
 		global.dir = global.up;
 		global.moving = true;
 		obj_luky.y--;
 	}
 
-	if (keyboard_key == vk_left)
+	else if (keyboard_key == vk_left)
 	{
 		global.dir = global.left;
 		global.moving = true;
 		obj_luky.x--;
 	}
 
-	if (keyboard_key == vk_right)
+	else if (keyboard_key == vk_right)
 	{
 		global.dir = global.right;
 		global.moving = true;
 		obj_luky.x++;
+	}
+	
+	else
+	{
+		global.moving = false;
 	}
 }
