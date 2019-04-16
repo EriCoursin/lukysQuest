@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "4d79a43b-2a03-4edb-ab4c-59fa7f95e4b7",
-            "Value": {
-                "id": "794011a1-eb21-492a-80df-1ba73767db5c",
-                "resourcePath": "sprites\\spr_lukySwordSwing\\spr_lukySwordSwing.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6b64fbbc-0da0-4364-925a-33fb22a4b242",
             "Value": {
                 "id": "bb3593b5-537a-43f8-ade1-d8dd8089129c",
@@ -260,6 +252,14 @@
                 "id": "1305639e-ac3e-41f7-b7fb-fbb8faf20b76",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d6fd67ca-0b52-4e10-8b33-547de02314f4",
+            "Value": {
+                "id": "43ce04a0-f6db-4808-b31e-0301c182c4c7",
+                "resourcePath": "sprites\\spr_lukySwordSwing\\spr_lukySwordSwing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
