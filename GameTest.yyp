@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "1b74caf4-094b-42b8-bf92-0d557fd91314",
-            "Value": {
-                "id": "7c2da280-72a6-4f2f-b5b1-5004d136e853",
-                "resourcePath": "sprites\\spr_swordSwing\\spr_swordSwing.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "26b7fefc-82c5-48d0-9b2d-b3a73c557efb",
             "Value": {
                 "id": "8e3644b6-35d1-4848-b9cd-d3d8300b6da0",
@@ -100,6 +92,14 @@
                 "id": "bb3593b5-537a-43f8-ade1-d8dd8089129c",
                 "resourcePath": "views\\6b64fbbc-0da0-4364-925a-33fb22a4b242.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "70f9d3df-8102-4323-9cb9-e606c8781b48",
+            "Value": {
+                "id": "87c00080-8217-4187-8d72-c367ec58048f",
+                "resourcePath": "sprites\\spr_swordSwing\\spr_swordSwing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
