@@ -1,4 +1,4 @@
-if (argument0 == true)
+if (global.item_in_use == true)
 {
 	global.moving = false;
 	obj_luky.sprite_index = spr_lukyUseItem;

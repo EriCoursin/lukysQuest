@@ -1,4 +1,4 @@
-if (global.sword == false)
+if (global.item_in_use == false)
 {
 	if (keyboard_key == vk_down)
 	{
