@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "32907e8c-7496-4815-a71e-862acd1a55d0",
+            "Value": {
+                "id": "dd3cd0a7-f353-46d1-b94a-0456e504eea4",
+                "resourcePath": "sprites\\spr_spikey\\spr_spikey.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "436c46b0-6006-468c-8b3a-4bef50a2dc3f",
             "Value": {
                 "id": "5582f60b-08c8-4180-a617-02bcd22e35dd",
@@ -277,6 +285,30 @@
                 "resourcePath": "scripts\\scr_lukyMovement\\scr_lukyMovement.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "e66443ce-86b8-4ae9-bbe4-0a1f06ade4eb",
+            "Value": {
+                "id": "0fa67624-9b04-4039-8d9b-61676db8c21b",
+                "resourcePath": "objects\\obj_spikey\\obj_spikey.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eb36ec49-5f66-4a9c-ac34-aebc2f8d4350",
+            "Value": {
+                "id": "ccce4162-ce19-40bd-945d-467b4c3a2472",
+                "resourcePath": "sprites\\spr_bow\\spr_bow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fda0a2aa-a58a-4314-80e8-e49ca1b5ee49",
+            "Value": {
+                "id": "22970036-ba13-41ce-bab8-37b49dacd52d",
+                "resourcePath": "scripts\\scr_spikeHurt\\scr_spikeHurt.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -284,7 +316,8 @@
         "9b8a3401-b5d2-48cd-ac6a-5fdb076f48e8",
         "7f796aaf-4b81-41a8-ac44-1d9ad605baf4",
         "7d69fa4b-2928-4448-ba97-04d4b0588f0d",
-        "df2d0742-0b5b-4eba-a908-557ecdddbf85"
+        "df2d0742-0b5b-4eba-a908-557ecdddbf85",
+        "fda0a2aa-a58a-4314-80e8-e49ca1b5ee49"
     ],
     "tutorial": ""
 }
