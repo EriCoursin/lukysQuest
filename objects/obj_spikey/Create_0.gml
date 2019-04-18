@@ -1,0 +1,1 @@
+var spikeHealth = 2;
