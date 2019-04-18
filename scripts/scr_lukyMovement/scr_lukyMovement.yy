@@ -1,8 +1,8 @@
 {
-    "id": "7d69fa4b-2928-4448-ba97-04d4b0588f0d",
+    "id": "e0de9ea0-427b-4511-996d-179d4a2f1cc6",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "luky_swordSprites",
+    "name": "scr_lukyMovement",
     "IsCompatibility": false,
     "IsDnD": false
 }

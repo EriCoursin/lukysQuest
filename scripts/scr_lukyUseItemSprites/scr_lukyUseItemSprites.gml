@@ -1,7 +1,7 @@
-if (global.sword == true)
+if (argument0 == true)
 {
 	global.moving = false;
-	obj_luky.sprite_index = spr_lukySwordSwing;
+	obj_luky.sprite_index = spr_lukyUseItem;
 	
 	if (global.dir == global.down)
 	{

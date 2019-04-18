@@ -1,8 +1,6 @@
-luky_sword();
-luky_movement();
-luky_movingSprites();
-luky_swordSprites();
-if (global.cooldown > 0)
-{
-	global.cooldown--;
-}
+scr_lukyUseItem(obj_sword, global.swordCooldown, global.sword, vk_space);
+scr_lukyMovement();
+scr_lukyMovingSprites();
+scr_lukyUseItemSprites(global.sword);
+
+scr_cooldownCounter(global.swordCooldown);

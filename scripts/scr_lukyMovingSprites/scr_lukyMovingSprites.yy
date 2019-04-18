@@ -1,8 +1,8 @@
 {
-    "id": "e0de9ea0-427b-4511-996d-179d4a2f1cc6",
+    "id": "9b8a3401-b5d2-48cd-ac6a-5fdb076f48e8",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "luky_movement",
+    "name": "scr_lukyMovingSprites",
     "IsCompatibility": false,
     "IsDnD": false
 }

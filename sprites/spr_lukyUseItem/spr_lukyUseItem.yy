@@ -2,7 +2,7 @@
     "id": "d6fd67ca-0b52-4e10-8b33-547de02314f4",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_lukySwordSwing",
+    "name": "spr_lukyUseItem",
     "For3D": false,
     "HTile": false,
     "VTile": false,
