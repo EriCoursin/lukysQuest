@@ -130,7 +130,7 @@
             "Key": "7d69fa4b-2928-4448-ba97-04d4b0588f0d",
             "Value": {
                 "id": "e2739203-75b6-4161-8c7a-29321f197294",
-                "resourcePath": "scripts\\luky_swordSprites\\luky_swordSprites.yy",
+                "resourcePath": "scripts\\scr_lukyUseItemSprites\\scr_lukyUseItemSprites.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -138,7 +138,7 @@
             "Key": "7f796aaf-4b81-41a8-ac44-1d9ad605baf4",
             "Value": {
                 "id": "ae333ee7-90e4-46a3-bbb2-15c4d702ce98",
-                "resourcePath": "scripts\\luky_sword\\luky_sword.yy",
+                "resourcePath": "scripts\\scr_lukyUseItem\\scr_lukyUseItem.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -154,7 +154,7 @@
             "Key": "9b8a3401-b5d2-48cd-ac6a-5fdb076f48e8",
             "Value": {
                 "id": "42efe98a-954e-451f-ac50-43cc77960984",
-                "resourcePath": "scripts\\luky_movingSprites\\luky_movingSprites.yy",
+                "resourcePath": "scripts\\scr_lukyMovingSprites\\scr_lukyMovingSprites.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -258,24 +258,24 @@
             "Key": "d6fd67ca-0b52-4e10-8b33-547de02314f4",
             "Value": {
                 "id": "43ce04a0-f6db-4808-b31e-0301c182c4c7",
-                "resourcePath": "sprites\\spr_lukySwordSwing\\spr_lukySwordSwing.yy",
+                "resourcePath": "sprites\\spr_lukyUseItem\\spr_lukyUseItem.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "df2d0742-0b5b-4eba-a908-557ecdddbf85",
+            "Value": {
+                "id": "f54dd6cf-d893-47ba-a9f9-137e099992f1",
+                "resourcePath": "scripts\\scr_cooldownCounter\\scr_cooldownCounter.yy",
+                "resourceType": "GMScript"
             }
         },
         {
             "Key": "e0de9ea0-427b-4511-996d-179d4a2f1cc6",
             "Value": {
                 "id": "48057a95-1e43-403c-93ac-2fec1073dd35",
-                "resourcePath": "scripts\\luky_movement\\luky_movement.yy",
+                "resourcePath": "scripts\\scr_lukyMovement\\scr_lukyMovement.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f5df60e4-d7c0-4792-8508-d05f7eb14b11",
-            "Value": {
-                "id": "e901cecf-0df7-4ace-b733-12cb8892e43d",
-                "resourcePath": "objects\\obj_test\\obj_test.yy",
-                "resourceType": "GMObject"
             }
         }
     ],
@@ -283,7 +283,8 @@
         "e0de9ea0-427b-4511-996d-179d4a2f1cc6",
         "9b8a3401-b5d2-48cd-ac6a-5fdb076f48e8",
         "7f796aaf-4b81-41a8-ac44-1d9ad605baf4",
-        "7d69fa4b-2928-4448-ba97-04d4b0588f0d"
+        "7d69fa4b-2928-4448-ba97-04d4b0588f0d",
+        "df2d0742-0b5b-4eba-a908-557ecdddbf85"
     ],
     "tutorial": ""
 }
