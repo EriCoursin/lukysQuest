@@ -1,13 +1,12 @@
 var item = argument0;
-var cooldown = argument1;
-var itemvar = argument2;
-var key = argument3;
+var item_cooldown = argument1;
+var key = argument2;
 
-if ((keyboard_key == key) && (cooldown < 1) && (itemvar == false))
+if ((keyboard_key == key) && (item_cooldown < 1) && (global.item_in_use == false))
 {
 	instance_activate_object(item);
 	item.image_index = 0;
-	itemvar = true;
+	global.item_in_use = true;
 	
 	if (global.dir == global.down)
 	{

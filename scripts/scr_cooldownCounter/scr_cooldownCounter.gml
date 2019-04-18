@@ -1,4 +1,5 @@
-if (argument0 > 0)
+if (global.swordCooldown > 0)
 {
-	argument0--;
+	global.swordCooldown--;
+	show_debug_message(global.swordCooldown);
 }

@@ -1,4 +1,4 @@
-if ((global.sword == false) && (global.moving == true))
+if ((global.item_in_use == false) && (global.moving == true))
 {
 	image_speed = 1;
 	if (global.dir == global.down)
@@ -22,7 +22,7 @@ if ((global.sword == false) && (global.moving == true))
 	}
 }
 
-if ((global.sword == false) && (global.moving == false))
+else if ((global.item_in_use == false) && (global.moving == false))
 {
 	image_speed = 0;
 	image_index = 0;
