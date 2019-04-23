@@ -1,1 +1,2 @@
-var spikeHealth = 2;
+spikeHealth = 4;
+spike_hit = false;
