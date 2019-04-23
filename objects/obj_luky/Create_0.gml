@@ -1,1 +1,1 @@
-health = 5;
+luky_health = 12;

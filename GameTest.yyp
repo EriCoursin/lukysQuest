@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "2e063302-397c-4cc9-8921-082360ce3bff",
+            "Value": {
+                "id": "ad53d405-63c6-4f33-8503-5288194de762",
+                "resourcePath": "sprites\\spr_healthbar\\spr_healthbar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "32907e8c-7496-4815-a71e-862acd1a55d0",
             "Value": {
                 "id": "dd3cd0a7-f353-46d1-b94a-0456e504eea4",
@@ -114,16 +122,16 @@
             "Key": "6dae3362-7046-4486-9e68-0ce40790b0dc",
             "Value": {
                 "id": "a4c98da3-b5b8-460e-a837-dffe4a8c2d2d",
-                "resourcePath": "scripts\\scr_lukyBump\\scr_lukyBump.yy",
+                "resourcePath": "scripts\\scr_lukyHit\\scr_lukyHit.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "70f9d3df-8102-4323-9cb9-e606c8781b48",
+            "Key": "6e3eb1ce-6dcc-400f-9d17-0ff5398428cd",
             "Value": {
-                "id": "87c00080-8217-4187-8d72-c367ec58048f",
-                "resourcePath": "sprites\\spr_swordSwing\\spr_swordSwing.yy",
-                "resourceType": "GMSprite"
+                "id": "c0e48dff-9f72-4605-8267-0ba7f8b853b0",
+                "resourcePath": "objects\\obj_healthbar\\obj_healthbar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -132,6 +140,14 @@
                 "id": "6fe1340e-f6ad-4bfa-9503-ea6fe062ee97",
                 "resourcePath": "views\\75dcef81-28b1-45d0-9aea-e3749068bcb4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "77db3eeb-a2dc-4637-bc67-ebc3af67f9cc",
+            "Value": {
+                "id": "5fdcf45a-e3d9-4e11-a89c-f6b0a2a40016",
+                "resourcePath": "sprites\\spr_swordSwing\\spr_swordSwing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

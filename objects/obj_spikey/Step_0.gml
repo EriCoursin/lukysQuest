@@ -3,5 +3,5 @@ image_speed = 20;
 }
 
 if (spikeHealth < 1){
-instance_destroy(other);	
+instance_destroy();	
 }
