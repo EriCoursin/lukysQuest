@@ -1,0 +1,1 @@
+image_index = obj_luky.luky_health;

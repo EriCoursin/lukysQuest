@@ -1,1 +1,1 @@
-scr_lukyBump(other);
+scr_lukyHit();

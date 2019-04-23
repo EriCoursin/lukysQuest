@@ -1,6 +1,6 @@
 if ((global.item_in_use == false) && (global.moving == true))
 {
-	image_speed = 1;
+	obj_luky.image_speed = 1;
 	if (global.dir == global.down)
 	{
 		obj_luky.sprite_index = spr_lukyDownMove;
@@ -24,8 +24,8 @@ if ((global.item_in_use == false) && (global.moving == true))
 
 else if ((global.item_in_use == false) && (global.moving == false))
 {
-	image_speed = 0;
-	image_index = 0;
+	obj_luky.image_speed = 0;
+	obj_luky.image_index = 0;
 	if (global.dir == global.down)
 	{
 		obj_luky.sprite_index = spr_lukyDownMove;

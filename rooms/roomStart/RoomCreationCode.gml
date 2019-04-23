@@ -6,6 +6,5 @@ global.dir = global.down;
 global.item_in_use = false;
 global.moving = false;
 global.swordCooldown = 0;
-global.enemy_hit = false;
 
 instance_deactivate_object(obj_sword);
