@@ -72,9 +72,9 @@
                 "SerialiseHeight": 8,
                 "SerialiseWidth": 8,
                 "TileSerialiseData": [
-                    5,5,5,5,5,5,5,5,
-                    2,2,2,2,2,2,2,5,
-                    2,2,2,2,2,2,2,5,
+                    5,5,5,5,5,5,5,2,
+                    2,2,2,2,2,2,2,2,
+                    2,2,2,2,2,2,2,2,
                     2,2,2,2,2,2,4,4,
                     2,2,2,2,2,2,4,4,
                     2,2,2,2,2,2,4,4,
@@ -82,7 +82,7 @@
                     2,2,4,4,4,4,2,2
                 ]
             },
-            "tilesetId": "f07a0d9c-8352-4d21-ac51-e3d8f9f95cd6",
+            "tilesetId": "b27cd616-28a6-441f-b123-d2ecfdc1c3b8",
             "userdefined_depth": false,
             "visible": true,
             "x": 0,
