@@ -20,3 +20,4 @@ if (global.dir == global.down)
 
 obj_luky.luky_health -= 1;
 show_debug_message(obj_luky.luky_health);
+global.bumpCooldown = 20;
