@@ -1,4 +1,4 @@
-if (global.item_in_use == false)
+if (global.item_in_use == false) && (global.bumpCooldown == 0)
 {
 	if (keyboard_key == vk_down)
 	{
