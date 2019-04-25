@@ -9,3 +9,5 @@ global.swordCooldown = 0;
 global.bumpCooldown = 0;
 
 instance_deactivate_object(obj_sword);
+
+view_camera[0] = camera_create_view(0,0, 128, 128);
