@@ -5,6 +5,7 @@ var key = argument2;
 if ((keyboard_key == key) && (item_cooldown < 1) && (global.item_in_use == false))
 {
 	instance_activate_object(item);
+	item.visible = true;
 	item.image_index = 0;
 	global.item_in_use = true;
 	
